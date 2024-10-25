@@ -1,0 +1,34 @@
+{
+  "compilerOptions": {
+    "lib": ["DOM", "ES2020"],
+    "jsx": "preserve",
+    "target": "ES2020",
+    "noEmit": true,
+    "skipLibCheck": true,
+    "jsxImportSource": "vue",
+    "useDefineForClassFields": true,
+
+    /* modules */
+    "module": "esnext",
+    "isolatedModules": true,
+    "resolveJsonModule": true,
+    "moduleResolution": "node",
+    "allowImportingTsExtensions": true,
+
+    /* type checking */
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "types": ["@rsbuild/core/types", "node"],
+    "baseUrl": "./",
+    "paths": {
+      "@/*": [
+        "src/*"
+      ]
+    }
+  },
+  "include": [
+    "src"
+  ],
+  "exclude": ["node_modules"]
+}
