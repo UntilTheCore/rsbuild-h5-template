@@ -1,4 +1,5 @@
-@unocss all;
+@unocss preflights;
+@unocss default;
 
 body {
     /*margin: 0;*/
